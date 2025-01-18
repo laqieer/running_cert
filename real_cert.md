@@ -14,8 +14,8 @@
         {% for item in data %}
         <tr>
             <td>{{ item.name }}</td>
-            <td>{{ item.date | date: '%Y-%m-%d' }}</td>
-            <td>{{ item.time | date: '%H:%M:%S' }}</td>
+            <td>{{ item.date}}</td>
+            <td>{{ item.time}}</td>
             <td><iframe src="https://m.mararun.com/html/certificate.html?id={{ item.cert }}"></iframe></td>
         </tr>
         {% endfor %}
