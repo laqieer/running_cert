@@ -19,7 +19,7 @@
             <td>{{ item.date}}</td>
             <td>{{ item.time}}</td>
             <td>{{ item.medal}}</td>
-            <td><iframe src="https://m.mararun.com/html/certificate.html?id={{ item.cert }}"></iframe></td>
+            <td><iframe style="height: 100%; width: 100%;" src="https://m.mararun.com/html/certificate.html?id={{ item.cert }}"></iframe></td>
             <td>{% if item.activity != null and item.activity != "" %}<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="{{ item.activity }}" data-style="standard"></div><script src="https://strava-embeds.com/embed.js">{% endif %}</script></td>
         </tr>
         {% endfor %}
