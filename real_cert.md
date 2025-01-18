@@ -9,6 +9,7 @@
             <th>净成绩</th>
             <th>奖牌收纳罐编号</th>
             <th>成绩证书</th>
+            <th>运动记录</th>
         </tr>
     </thead>
     <tbody>
@@ -19,6 +20,7 @@
             <td>{{ item.time}}</td>
             <td>{{ item.medal}}</td>
             <td><iframe src="https://m.mararun.com/html/certificate.html?id={{ item.cert }}"></iframe></td>
+            <td><div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="{{ item.activity }}" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script></td>
         </tr>
         {% endfor %}
     </tbody>
