@@ -1,13 +1,13 @@
 # 线下赛
 
 {% assign data = site.data.real_cert | sort: 'date' %}
-<table>
+<table style="width:100%">
     <thead>
         <tr>
             <th>比赛</th>
             <th>日期</th>
             <th>净成绩</th>
-            <th>成绩证书</th>
+            <th style="width:50%">成绩证书</th>
         </tr>
     </thead>
     <tbody>
