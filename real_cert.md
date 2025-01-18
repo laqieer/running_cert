@@ -1,7 +1,7 @@
 # 线下赛
 
 {% for group in site.data.real_cert %}
-    ## 奖牌收纳罐编号：{{ group.group }}</td>
+    ## 奖牌收纳罐编号：{{ group.group }}
     {% for medal in group.medals %}
         ### {{ medal.race }}
         比赛日期：{{ medal.date }}，净成绩：{{ medal.time }}
