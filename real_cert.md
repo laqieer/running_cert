@@ -16,7 +16,7 @@
             <td>{{ item.name }}</td>
             <td>{{ item.date | date: '%Y-%m-%d' }}</td>
             <td>{{ item.time | date: '%H:%M:%S' }}</td>
-            <td><iframe src="https://m.mararun.com/html/certificate.html?id={{ item.cert }}"></iframe></td>
+            <td><iframe width="50%" src="https://m.mararun.com/html/certificate.html?id={{ item.cert }}"></iframe></td>
         </tr>
         {% endfor %}
     </tbody>
