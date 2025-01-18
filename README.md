@@ -1,2 +1,2 @@
-# running_medal
-My medals won in running races
+# running_cert
+My certificates of achievement won in running races
