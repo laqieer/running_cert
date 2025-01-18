@@ -7,12 +7,12 @@
             <th>比赛</th>
             <th>日期</th>
             <th>净成绩</th>
-            <th style="width:500px">成绩证书</th>
+            <th>成绩证书</th>
         </tr>
     </thead>
     <tbody>
         {% for item in data %}
-        <tr style="height:300px">
+        <tr>
             <td>{{ item.name }}</td>
             <td>{{ item.date | date: '%Y-%m-%d' }}</td>
             <td>{{ item.time | date: '%H:%M:%S' }}</td>
