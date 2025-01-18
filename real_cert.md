@@ -5,6 +5,7 @@
 {% for medal in group.medals %}
 ### {{ medal.race }}
 比赛日期：{{ medal.date }}，净成绩：{{ medal.time }}
+
 成绩证书：
 <iframe src="https://m.mararun.com/html/certificate.html?id={{ medal.cert }}"></iframe>
 {% if medal.activity != null and medal.activity != "" %}
