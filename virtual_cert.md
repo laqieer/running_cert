@@ -12,11 +12,11 @@
 - {{ medal }}
 {% endfor %}
 
-![](/assets/images/成绩证书/{{ group.group }}/{{ race.race }}.jpg)
+![]({{ site.baseurl }}/assets/images/成绩证书/{{ group.group }}/{{ race.race }}.jpg)
 {% if group.group | starts_with: "数字心动" %}
-![](/assets/images/电子号码布/{{ group.group }}/{{ race.race }}.jpg)
+![]({{ site.baseurl }}/assets/images/电子号码布/{{ group.group }}/{{ race.race }}.jpg)
 {% if race.hasVirtualMedal %}
-![](/assets/images/电子奖牌/{{ group.group }}/{{ race.race }}.jpg)
+![]({{ site.baseurl }}/assets/images/电子奖牌/{{ group.group }}/{{ race.race }}.jpg)
 {% endif %}
 {% endif %}
 
