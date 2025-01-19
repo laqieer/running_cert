@@ -1,0 +1,67 @@
+- group: QueenRun1
+  races:
+  - race: 2023锡山宛山湖马拉松
+  - race: 2024无锡太湖女子半程马拉松
+  - race: 2024苏州太湖数字半程马拉松
+  - race: 2024盲盒马拉松
+    medals:
+    - 2023锡山宛山湖马拉松
+  - race: 2024苏州亲子跑
+  - race: 2024跑迎建国75周年
+  - race: 2024太仓中德半程马拉松
+  - race: 2024锡山宛山湖马拉松
+  - race: 2025迎新跑（盲盒）
+    medals:
+    - 2024苏州亲子跑
+- group: 第一赛道1
+  races:
+  - race: 2024柳州马拉松
+  - race: 20204连南半程马拉松
+  - race: 2024贵阳马拉松
+  - race: 2024阳江海陵岛马拉松
+  - race: 2024荣县半程马拉松暨“跑遍四川”荣县站
+  - race: 2024江门马拉松
+  - race: 2024黄埔马拉松
+  - race: 2024梅州马拉松
+- group: 第一赛道2
+  races:
+  - race: 2024来宾半程马拉松
+  - race: 2025跨年盲盒线上跑
+    medals:
+    - 2024清远马拉松
+    - 2024广州南沙（湾区）半程马拉松
+    - 2024连州半程马拉松
+  - race: 2025顺德容桂环岛马拉松
+- group: 数字心动1
+  races:
+  - race: 2024贵州·镇宁黄果树半程马拉松
+    note: A0064，因伤退赛，组委会赠
+  - race: 2024万峰林马拉松
+    hasVirtualMedal: true
+  - race: 2024普洱思茅马拉松
+    hasVirtualMedal: true
+  - race: 2024重庆铜梁马拉松
+    hasVirtualMedal: true
+  - race: 2024百城万人健心跑
+    hasVirtualMedal: true
+  - race: 2024阳泉娘子关半程马拉松
+    hasVirtualMedal: true
+  - race: 2024怀宁蓝莓马拉松
+    hasVirtualMedal: true
+  - race: 2024阜阳马拉松
+    hasVirtualMedal: true
+- group: 数字心动2
+  races:
+  - race: 2024安徽郎溪健康跑
+    hasVirtualMedal: true
+  - race: 2024年6月安徽郎溪“莓”好盛宴健康跑
+    hasVirtualMedal: true
+  - race: 2024滁州马拉松
+  - race: 2024武清半程马拉松
+    hasVirtualMedal: true
+  - race: 2024泰安马拉松
+  - race: 2024重庆忠县马拉松暨第七届长江三峡马拉松
+  - race: 2024天津武清京津冀十公里精英赛
+  - race: 2024天津武清京津冀亲子嘉年华
+  - race: 2024重庆璧山马拉松
+  - race: 2024重庆半程马拉松
