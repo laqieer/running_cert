@@ -1,7 +1,7 @@
 # 线上赛
 
 {% for group in site.data.virtual_cert %}
-## 奖牌收纳罐编号：{{ group.group }}
+## 奖牌收纳：{{ group.group }}
 {% for race in group.races %}
 ### {{ race.race }}
 {% if race.note != null %}
